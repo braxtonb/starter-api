@@ -6,15 +6,13 @@ Starter API typescript template.
 
 #### Setup
 
-* Clone the repo
+* Clone the repo, `git clone git@github.com:braxtonb/starter-api.git`
 * Install dependencies, `npm install`
 * [Without container] Run `npm run dev` to start the application on port 8080
 * [With container] Run `npm run createImage` to create a local docker image
 * [With container] Run `npm run runContainer` to run a local docker container
 
 #### Endpoints
-
-All endpoints use basic authentication. To access any endpoint a valid username / password combination is expected.
 
 |Endpoint|Method|Description|
 |:---|:---|:---|
