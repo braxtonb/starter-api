@@ -4,6 +4,6 @@ import { handleExample } from './example.controller';
 const ExampleRouter = Router();
 
 // layer path /api/example
-ExampleRouter.get('/', handleExample);
+ExampleRouter.get('/:errorId?', handleExample);
 
 export default ExampleRouter;
